@@ -24,7 +24,7 @@ export default function Home({ navigation }) {
                   renderItem={({ item }) => (
                       <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', item)}>
                           <Card>
-                                <Text style={globalStyles.titleText}> {item.email}, {item.name}</Text>
+                                <Text style={globalStyles.titleText}>{item.name}</Text>
                           </Card>
                       </TouchableOpacity>
                       
