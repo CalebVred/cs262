@@ -7,7 +7,9 @@ import Home from '../routes/homeStack';
 import About from '../routes/aboutStack';
 
 const Drawer = createDrawerNavigator();
-
+/**
+ * Default function for navigation drawer
+ */
 export default function App() {
     return (
         <Drawer.Navigator initialRouteName="Home">

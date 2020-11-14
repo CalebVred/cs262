@@ -1,7 +1,14 @@
+/**
+ * @author: chv5
+ */
 import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
+/**
+ * 
+ * @param {var} navigation navigates to the header 
+ */
 export default function Header({ navigation }) {
 
     const openMenu = () => {

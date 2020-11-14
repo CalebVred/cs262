@@ -5,7 +5,10 @@ import Header from '../shared/header';
 import About from '../screens/about';
 
 const Stack = createStackNavigator();
-
+/**
+ * Default export function to navigation to About screen
+ * @param {navigation} navigation navigates to about screen
+ */
 export default function AboutStack( {navigation} ) {
     return (
         <Stack.Navigator>

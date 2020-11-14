@@ -1,6 +1,12 @@
+/**
+ * @author: chv5
+ */
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
+/**
+ * @param {var} props is the list of all the properties of a card 
+ */
 export default function Card(props) {
     return (
         <View style={styles.card}>

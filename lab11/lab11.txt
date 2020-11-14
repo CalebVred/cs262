@@ -1,0 +1,36 @@
+lab05 changes
+App.js
+-I added authorship
+-I removed createStackNavigator import
+-I added documentation for the getFonts, setFontsLoaded and App functions
+about.js
+-I added authorship
+-I added a description for the default function
+-I removed the Stylesheet import
+home.js
+-I added authorship
+-I added a description for the default function
+-I removed the Stylesheet import
+-Got rid of the unused setReviews function
+reviewDetails.js
+-I added authorship
+-I added a description for the default function
+-I removed the Stylesheet import
+aboutStack.js
+-I added authorship
+-I added documentation for the AboutStack function
+drawer.js
+-I added authorship
+-I added documentation for the App 
+homeStack.js
+-I added authorship
+-I added the documentation for the HomeStack function
+card.js
+-I added authorship
+-I added documentation for the Card function
+header.js
+-I added authorship
+-I added documentation for the Header function
+
+The linter I use already takes care of curly braces and spelling errors.
+I didn't bother adding descriptions to each of the files because I feel like some of them are simple/small enough that they don't need it.
